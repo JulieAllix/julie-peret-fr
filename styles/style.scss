@@ -1,0 +1,64 @@
+html {
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    height: 20%;
+}
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 76px;
+    margin-left: 6rem;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-left: 10rem;
+}
+.small-picture {
+    height: 140px;
+    width: 200px;
+    margin: 0 0.3rem;
+}
+
+main {
+    height: 80vh;
+}
+.main-text-container {
+    background-image: url('../img/barcelona-bg.png');
+    padding: 0;
+    margin: 0;
+}
+.paragraphs-container {
+    padding: 5rem;
+    width: 40%;
+}
+.paragraph {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    line-height: 2.6rem;
+}
+.last-paragraph {
+    margin-bottom: 0;
+}
+.regular-emphasis {
+    font-weight: 500;
+}
+.price-emphasis {
+    color: #F4B31D;
+    font-weight: 600;
+    font-size: 40px;
+}
