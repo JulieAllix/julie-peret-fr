@@ -134,6 +134,20 @@ h2 {
   margin-left: .8rem;
 }
 
+@media (max-width: 300px) {
+  h2 {
+    font-size: 18px;
+  }
+  .paragraph {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    line-height: 1.3rem;
+  }
+  .price-emphasis {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 600px) {
   header {
     padding: 1rem;
@@ -218,6 +232,31 @@ h2 {
   }
   .conclusion-text-spanish {
     margin-left: 1.5rem;
+  }
+}
+
+@media (min-width: 600px) and (orientation: landscape) {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .pictures-container-tablet {
+    height: 50%;
+  }
+  .paragraph {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+  }
+  .price-emphasis {
+    font-size: 30px;
+  }
+  .julie-picture {
+    width: 220px;
+    height: 300px;
+    border: 4px solid white;
   }
 }
 
