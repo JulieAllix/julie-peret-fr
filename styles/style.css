@@ -9,7 +9,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1.5rem;
+  padding: .5rem;
   height: 20%;
 }
 
@@ -24,51 +24,72 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 50%;
+  width: 100%;
 }
 
 h1 {
-  font-family: 'Abril Fatface', cursive;
-  font-size: 76px;
-  margin-left: 6rem;
+  font-family: "Abril Fatface", cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-top: .5rem;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
-  font-size: 24px;
-  margin-left: 10rem;
+  font-size: 20px;
+  text-align: center;
+  margin-top: .5rem;
+}
+
+.small-pictures-container {
+  display: none;
+}
+
+.pictures-container-mobile {
+  margin: .5rem 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.julie-picture {
+  width: 50%;
+  height: 100%;
+}
+
+.small-pictures-container-mobile {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .small-picture {
-  height: 140px;
-  width: 200px;
-  margin: 0 0.3rem;
-}
-
-main {
-  height: 80vh;
+  width: 100%;
+  height: 50%;
 }
 
 .main-text-container {
   background-image: url("../img/barcelona-bg.png");
-  padding: 0;
-  margin: 0;
-  position: relative;
 }
 
 .paragraphs-container {
-  padding: 5rem;
-  width: 40%;
+  padding: 1rem;
 }
 
 .paragraph {
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 200;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 2rem;
-  line-height: 2.6rem;
+  line-height: 1.6rem;
+  text-align: center;
 }
 
 .last-paragraph {
@@ -82,38 +103,110 @@ main {
 .price-emphasis {
   color: #F4B31D;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 32px;
+}
+
+.julie-picture-container {
+  display: none;
 }
 
 .conclusion-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 1.5rem;
+  margin: 1rem 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .conclusion-text {
-  font-family: 'Abril Fatface', cursive;
-  font-size: 30px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 20px;
 }
 
 .conclusion-text-spanish {
   color: #F4B31D;
-  margin-left: 1.5rem;
+  margin-left: .8rem;
 }
 
-.julie-picture-container {
-  position: absolute;
-  top: 23%;
-  right: 3%;
+@media (min-width: 600px) {
+  header {
+    padding: 1rem;
+    height: 20%;
+  }
+  h1 {
+    font-size: 76px;
+    margin-left: 6rem;
+    text-align: left;
+    margin-top: 0;
+  }
+  h2 {
+    font-size: 24px;
+    margin-left: 10rem;
+    text-align: left;
+    margin-top: 0;
+  }
+  .title-container {
+    width: 25%;
+  }
+  .small-picture {
+    height: 140px;
+    width: 200px;
+    margin: 0 0.3rem;
+  }
+  main {
+    height: 80vh;
+  }
+  .main-text-container {
+    position: relative;
+  }
+  .paragraphs-container {
+    padding: 5rem;
+    width: 40%;
+  }
+  .paragraph {
+    font-size: 30px;
+    margin-bottom: 2rem;
+    line-height: 2.6rem;
+  }
+  .price-emphasis {
+    font-size: 40px;
+  }
+  .small-pictures-container-mobile {
+    display: none;
+  }
+  .julie-picture-container {
+    position: absolute;
+    top: 23%;
+    right: 3%;
+  }
+  .julie-picture {
+    width: 460px;
+    height: 540px;
+    border: 4px solid white;
+  }
+  .conclusion-container {
+    margin-top: 1.5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .conclusion-text {
+    font-size: 36px;
+  }
+  .conclusion-text-spanish {
+    margin-left: 1.5rem;
+  }
 }
 
-.julie-picture {
-  width: 460px;
-  height: 540px;
-  border: 4px solid white;
+@media (min-width: 900px) {
+  header {
+    padding: 1.5rem;
+    height: 20%;
+  }
+  .title-container {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
