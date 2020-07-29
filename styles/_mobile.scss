@@ -33,35 +33,43 @@ h2 {
 .pictures-container-tablet {
     display: none;
 }
+.small-picture-info {
+    display: none;
+}
 
 .pictures-container-mobile {
     margin: .5rem 0 0;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
 }
 .julie-picture {
-    width: 50%;
+    width: 49%;
     height: 100%;
 }
 .small-pictures-container-mobile {
-    width: 50%;
+    width: 49%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .small-picture {
     width: 100%;
-    height: 50%;
+    height: 48%;
 }
 .main-text-container {
-    background-image: url('../img/barcelona-bg.png');
+    background-image: url('../img/barcelona-hr.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 .paragraphs-container {
     padding: 1rem;
 }
 .paragraph {
     color: white;
+    text-shadow: 3px 3px 5px black;
     font-family: $mainFont;
     font-weight: 200;
     font-size: 20px;

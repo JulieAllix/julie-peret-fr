@@ -27,6 +27,7 @@
         height: 100%;
         width: 30%;
         margin: 0 0.3rem 0.3rem;
+        box-shadow: 3px 3px 5px #888888;
     }
     .pictures-container-mobile {
         display: none;
@@ -37,6 +38,7 @@
     }
     .main-text-container {
         position: relative;
+        box-shadow: 3px 3px 5px #888888;
     }
     .paragraphs-container {
         padding: 2rem;
@@ -64,6 +66,7 @@
         width: 260px;
         height: 340px;
         border: 3px solid white;
+        box-shadow: 3px 3px 5px #888888;
     }
 
     .conclusion-container {
