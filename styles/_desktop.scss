@@ -1,0 +1,125 @@
+@media (min-width: 900px) {
+
+    header {
+        padding: 1.5rem;
+        height: 20%;
+    }
+    .title-container {
+        width: 50%;
+    }
+    h1 {
+        font-size: 76px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+    .small-pictures-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .small-picture {
+        height: 100px;
+        width: 150px;
+        margin: 0 0.3rem;
+    }
+    .pictures-container-tablet {
+        display: none;
+    }
+
+    .paragraphs-container {
+        padding: 4rem;
+        width: 55%;
+    }
+    .paragraph {
+        font-size: 30px;
+        margin-bottom: 2rem;
+        line-height: 2.6rem;
+        text-align: left;
+    }
+    .price-emphasis {
+        font-size: 40px;
+    }
+
+    .julie-picture {
+        width: 320px;
+        height: 430px;
+    }
+
+}
+
+@media (max-width: 1400px) and (min-height: 1100px) {
+    .paragraphs-container {
+        padding: 10rem 6rem;
+        width: 50%;
+    }
+    .paragraph {
+        font-size: 35px;
+        margin-bottom: 2rem;
+        line-height: 2.8rem;
+        text-align: left;
+    }
+}
+
+@media (min-width: 900px) and (max-height: 900px) {
+    h1 {
+        font-size: 60px;
+        margin-left: 0;
+        text-align: center;
+    }
+    h2 {
+        font-size: 18px;
+        margin-left: 0;
+        margin-top: .5rem;
+        text-align: center;
+    }
+
+    main {
+        height: auto;
+    }
+    .paragraphs-container {
+        padding: 3rem;
+        width: 50%;
+    }
+    .paragraph {
+        font-size: 24px;
+        margin-bottom: 1.5rem;
+        line-height: 2rem;
+    }
+    .price-emphasis {
+        font-size: 40px;
+    }
+    .julie-picture {
+        width: 330px;
+        height: 400px;
+    }
+
+    .conclusion-container {
+        margin: 1rem 1rem 0 2rem;
+        justify-content: left;
+    }
+}
+
+@media (min-width: 1400px) {
+    h1 {
+        text-align: left;
+        margin-left: 6rem;
+    }
+    h2 {
+        margin-left: 10rem;
+        text-align: left;
+    }
+    .small-picture {
+        height: 140px;
+        width: 200px;
+        margin: 0 0.3rem;
+    }
+    .paragraphs-container {
+        padding: 4rem;
+        width: 40%;
+    }
+    .julie-picture {
+        width: 420px;
+        height: 500px;
+    }
+}
