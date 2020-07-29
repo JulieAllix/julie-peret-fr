@@ -46,6 +46,10 @@ h2 {
   display: none;
 }
 
+.pictures-container-tablet {
+  display: none;
+}
+
 .pictures-container-mobile {
   margin: .5rem 0 0;
   display: -webkit-box;
@@ -136,24 +140,38 @@ h2 {
     height: 20%;
   }
   h1 {
-    font-size: 76px;
-    margin-left: 6rem;
-    text-align: left;
+    font-size: 86px;
     margin-top: 0;
   }
   h2 {
-    font-size: 24px;
-    margin-left: 10rem;
-    text-align: left;
-    margin-top: 0;
+    font-size: 28px;
   }
   .title-container {
-    width: 25%;
+    width: 100%;
+  }
+  .pictures-container-tablet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: .8rem 0;
+    height: 20%;
+  }
+  .small-pictures-container {
+    display: none;
   }
   .small-picture {
-    height: 140px;
-    width: 200px;
-    margin: 0 0.3rem;
+    height: 100%;
+    width: 30%;
+    margin: 0 0.3rem 0.3rem;
+  }
+  .pictures-container-mobile {
+    display: none;
   }
   main {
     height: 80vh;
@@ -162,13 +180,13 @@ h2 {
     position: relative;
   }
   .paragraphs-container {
-    padding: 5rem;
-    width: 40%;
+    padding: 2rem;
+    width: 50%;
   }
   .paragraph {
-    font-size: 30px;
-    margin-bottom: 2rem;
-    line-height: 2.6rem;
+    font-size: 26px;
+    margin-bottom: 1rem;
+    line-height: 2rem;
   }
   .price-emphasis {
     font-size: 40px;
@@ -177,13 +195,16 @@ h2 {
     display: none;
   }
   .julie-picture-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: absolute;
     top: 23%;
     right: 3%;
   }
   .julie-picture {
-    width: 460px;
-    height: 540px;
+    width: 260px;
+    height: 340px;
     border: 4px solid white;
   }
   .conclusion-container {
@@ -207,6 +228,50 @@ h2 {
   }
   .title-container {
     width: 50%;
+  }
+  h1 {
+    font-size: 76px;
+    text-align: left;
+    margin-left: 6rem;
+  }
+  h2 {
+    font-size: 24px;
+    margin-left: 10rem;
+    text-align: left;
+    margin-top: 0;
+  }
+  .small-pictures-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .small-picture {
+    height: 140px;
+    width: 200px;
+    margin: 0 0.3rem;
+  }
+  .pictures-container-tablet {
+    display: none;
+  }
+  .paragraphs-container {
+    padding: 5rem;
+    width: 40%;
+  }
+  .paragraph {
+    font-size: 30px;
+    margin-bottom: 2rem;
+    line-height: 2.6rem;
+  }
+  .price-emphasis {
+    font-size: 40px;
+  }
+  .julie-picture {
+    width: 460px;
+    height: 540px;
   }
 }
 /*# sourceMappingURL=style.css.map */
