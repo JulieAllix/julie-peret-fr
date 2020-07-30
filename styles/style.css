@@ -158,6 +158,9 @@ h2 {
     margin-bottom: 1rem;
     line-height: 1.3rem;
   }
+  .last-paragraph {
+    margin-bottom: 0;
+  }
   .price-emphasis {
     font-size: 30px;
   }
@@ -221,6 +224,9 @@ h2 {
     margin-bottom: 1rem;
     line-height: 2rem;
   }
+  .last-paragraph {
+    margin-bottom: 0;
+  }
   .price-emphasis {
     font-size: 40px;
   }
@@ -251,7 +257,7 @@ h2 {
   .conclusion-text {
     font-size: 36px;
   }
-  .conclusion-text-accent {
+  .conclusion-text-spanish {
     margin-left: 1.5rem;
   }
 }
@@ -270,6 +276,9 @@ h2 {
     font-size: 20px;
     margin-bottom: 1rem;
     line-height: 2rem;
+  }
+  .last-paragraph {
+    margin-bottom: 0;
   }
   .price-emphasis {
     font-size: 30px;
@@ -326,12 +335,15 @@ h2 {
     margin: 0.3rem;
     width: 95%;
     top: 60%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .small-picture-container:hover .small-picture-info p {
     color: white;
     padding: .5rem;
-    text-align: center;
     font-family: "Poppins", sans-serif;
+    text-align: center;
   }
   .small-picture {
     height: 100px;
@@ -350,6 +362,9 @@ h2 {
     margin-bottom: 2rem;
     line-height: 2.6rem;
     text-align: left;
+  }
+  .last-paragraph {
+    margin-bottom: 0;
   }
   .price-emphasis {
     font-size: 40px;
@@ -370,6 +385,9 @@ h2 {
     margin-bottom: 2rem;
     line-height: 2.8rem;
     text-align: left;
+  }
+  .last-paragraph {
+    margin-bottom: 0;
   }
 }
 
@@ -396,6 +414,9 @@ h2 {
     font-size: 24px;
     margin-bottom: 1.5rem;
     line-height: 2rem;
+  }
+  .last-paragraph {
+    margin-bottom: 0;
   }
   .price-emphasis {
     font-size: 40px;
@@ -427,7 +448,7 @@ h2 {
     margin: 0 0.3rem;
   }
   .paragraphs-container {
-    padding: 4rem;
+    padding: 3rem;
     width: 40%;
   }
   .julie-picture {
