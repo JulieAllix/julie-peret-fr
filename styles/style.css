@@ -144,7 +144,7 @@ h2 {
   font-size: 20px;
 }
 
-.conclusion-text-spanish {
+.conclusion-text-accent {
   color: #F4B31D;
   margin-left: .8rem;
 }
@@ -251,7 +251,7 @@ h2 {
   .conclusion-text {
     font-size: 36px;
   }
-  .conclusion-text-spanish {
+  .conclusion-text-accent {
     margin-left: 1.5rem;
   }
 }
