@@ -50,6 +50,10 @@
     .pictures-container-tablet {
         display: none;
     }
+
+    .main-text-container {
+        background-image: $bg-picture-l;
+    }
     .paragraphs-container {
         padding: 4rem;
         width: 55%;
@@ -145,6 +149,10 @@
         height: 140px;
         width: 200px;
         margin: 0 0.3rem;
+    }
+
+    .main-text-container {
+        background-image: $bg-picture-xl;
     }
     .paragraphs-container {
         padding: 3rem;

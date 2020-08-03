@@ -58,11 +58,10 @@ h2 {
     height: 48%;
 }
 .main-text-container {
-    background-image: url('../img/barcelona-hr.jpg');
+    background-image: $bg-picture-s;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 .paragraphs-container {
     padding: 1rem;
@@ -109,6 +108,10 @@ h2 {
 @media (max-width: 300px) {
     h2 {
         font-size: 18px;
+    }
+
+    .main-text-container {
+        background-image: $bg-picture-xs;
     }
     .paragraph {
         font-size: 16px;
