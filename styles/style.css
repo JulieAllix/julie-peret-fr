@@ -65,8 +65,12 @@ h2 {
   margin-bottom: .5rem;
 }
 
-.julie-picture {
+.julie-picture-picture {
   width: 49%;
+}
+
+.julie-picture {
+  width: 100%;
   height: 100%;
 }
 
@@ -84,7 +88,7 @@ h2 {
           justify-content: space-between;
 }
 
-picture {
+.small-picture-picture {
   height: 48%;
 }
 
@@ -210,7 +214,7 @@ picture {
     -webkit-box-shadow: 3px 3px 5px #888888;
             box-shadow: 3px 3px 5px #888888;
   }
-  picture {
+  .small-picture-picture {
     height: 100%;
     width: 30%;
     margin: 0 0.3rem 0.3rem;
@@ -327,7 +331,7 @@ picture {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  picture {
+  .small-picture-picture {
     margin: 0;
     width: 100%;
     margin: 0 0.3rem;
