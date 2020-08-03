@@ -84,9 +84,13 @@ h2 {
           justify-content: space-between;
 }
 
+picture {
+  height: 48%;
+}
+
 .small-picture {
   width: 100%;
-  height: 48%;
+  height: 100%;
 }
 
 .main-text-container {
@@ -202,10 +206,14 @@ h2 {
   }
   .small-picture {
     height: 100%;
-    width: 30%;
-    margin: 0 0.3rem 0.3rem;
+    width: 100%;
     -webkit-box-shadow: 3px 3px 5px #888888;
             box-shadow: 3px 3px 5px #888888;
+  }
+  picture {
+    height: 100%;
+    width: 30%;
+    margin: 0 0.3rem 0.3rem;
   }
   .pictures-container-mobile {
     display: none;
@@ -319,6 +327,11 @@ h2 {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  picture {
+    margin: 0;
+    width: 100%;
+    margin: 0 0.3rem;
+  }
   .small-picture-container {
     position: relative;
     -webkit-transition: 0.6s;
@@ -354,7 +367,7 @@ h2 {
   .small-picture {
     height: 100px;
     width: 150px;
-    margin: 0 0.3rem;
+    margin: 0;
   }
   .pictures-container-tablet {
     display: none;
@@ -454,7 +467,7 @@ h2 {
   .small-picture {
     height: 140px;
     width: 200px;
-    margin: 0 0.3rem;
+    margin: 0;
   }
   .main-text-container {
     background-image: url("../img/barcelona-hr-xl.jpg");

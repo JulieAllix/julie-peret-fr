@@ -25,10 +25,15 @@
     }
     .small-picture {
         height: 100%;
-        width: 30%;
-        margin: 0 0.3rem 0.3rem;
+        width: 100%;
         box-shadow: 3px 3px 5px #888888;
     }
+    picture {
+        height: 100%;
+        width: 30%;
+        margin: 0 0.3rem 0.3rem;
+    }
+
     .pictures-container-mobile {
         display: none;
     }
